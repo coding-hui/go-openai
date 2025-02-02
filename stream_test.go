@@ -4,14 +4,14 @@ import (
 	"context"
 	"encoding/json"
 	"errors"
+	"github.com/coding-hui/go-openai"
 	"io"
 	"net/http"
 	"os"
 	"testing"
 	"time"
 
-	"github.com/sashabaranov/go-openai"
-	"github.com/sashabaranov/go-openai/internal/test/checks"
+	"github.com/coding-hui/go-openai/internal/test/checks"
 )
 
 func TestCompletionsStreamWrongModel(t *testing.T) {

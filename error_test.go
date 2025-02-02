@@ -2,11 +2,10 @@ package openai_test
 
 import (
 	"errors"
+	"github.com/coding-hui/go-openai"
 	"net/http"
 	"reflect"
 	"testing"
-
-	"github.com/sashabaranov/go-openai"
 )
 
 func TestAPIErrorUnmarshalJSON(t *testing.T) {

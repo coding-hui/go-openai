@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"github.com/coding-hui/go-openai"
 	"io"
 	"net/http"
 	"strconv"
@@ -12,9 +13,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sashabaranov/go-openai"
-	"github.com/sashabaranov/go-openai/internal/test/checks"
-	"github.com/sashabaranov/go-openai/jsonschema"
+	"github.com/coding-hui/go-openai/internal/test/checks"
+	"github.com/coding-hui/go-openai/jsonschema"
 )
 
 const (

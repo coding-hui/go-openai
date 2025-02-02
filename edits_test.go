@@ -4,13 +4,13 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"github.com/coding-hui/go-openai"
 	"io"
 	"net/http"
 	"testing"
 	"time"
 
-	"github.com/sashabaranov/go-openai"
-	"github.com/sashabaranov/go-openai/internal/test/checks"
+	"github.com/coding-hui/go-openai/internal/test/checks"
 )
 
 // TestEdits Tests the edits endpoint of the API using the mocked server.

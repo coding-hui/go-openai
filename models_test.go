@@ -4,13 +4,13 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"github.com/coding-hui/go-openai"
 	"net/http"
 	"os"
 	"testing"
 	"time"
 
-	"github.com/sashabaranov/go-openai"
-	"github.com/sashabaranov/go-openai/internal/test/checks"
+	"github.com/coding-hui/go-openai/internal/test/checks"
 )
 
 const testFineTuneModelID = "fine-tune-model-id"

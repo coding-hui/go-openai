@@ -4,6 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"github.com/coding-hui/go-openai"
 	"io"
 	"net/http"
 	"os"
@@ -11,8 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sashabaranov/go-openai"
-	"github.com/sashabaranov/go-openai/internal/test/checks"
+	"github.com/coding-hui/go-openai/internal/test/checks"
 )
 
 func TestImages(t *testing.T) {
